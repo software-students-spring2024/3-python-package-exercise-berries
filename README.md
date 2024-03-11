@@ -7,7 +7,9 @@ An exercise to create a Python package, build it, test it, distribute it, and us
 We are building a frog 🐸, named ribbet, virtual pet that has four behaviors that can be called upon each with their own unique message/response. 
 
 The unique responses will be
-* hello: 🐸 'Hi there (user)'
+* help: List of commands 
+* hello (user): 🐸 'Hi there (user)'
 * encourage: 🐸 'You got this'
 * frog mode: 🐸 'I EAT BUGS, lets eat bugs together'
-* bye: 🐸 'bye bye (user), go catch some flys'
+* kill(bug): 🐸 'I don't eat (bug), I like to eat yummy yummy flies'
+* bye (user): 🐸 'bye bye (user), go catch some flys'
