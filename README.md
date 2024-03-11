@@ -13,3 +13,25 @@ The unique responses will be
 * frog mode: 🐸 'I EAT BUGS, lets eat bugs together'
 * kill(bug): 🐸 'I don't eat (bug), I like to eat yummy yummy flies'
 * bye (user): 🐸 'bye bye (user), go catch some flys'
+
+## Install 
+
+Install the frog module using pip
+
+```bash
+  pip install frog 
+```
+
+## Run
+Call frog from the command line to interact with your virtual frog while coding.
+
+```bash
+  frog 
+```
+note: put documentation and finish run instructions
+
+## Contributors
+* Bonny 
+* Christina 
+* Damla
+* Yura
