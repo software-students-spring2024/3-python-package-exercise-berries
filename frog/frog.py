@@ -1,5 +1,4 @@
 import random
-import argparse
 
 # function that lists all the available functions in the module
 def help():
@@ -19,8 +18,8 @@ def help():
 # ---------------------------------------------------------------------------- #
 
 
-def hello(user):
-    print('\U0001F438: Hi there ' + user + '!')
+def hello(name):
+    print('\U0001F438: Hi there ' + name + '!')
 
 
 def encourage():
@@ -48,8 +47,8 @@ def kill(anything):
         print("\U0001F438: I don't like " + anything + ", I only eat yummy snacks! nom nom nom")
     
     
-def goodbye(user):
-    print('\U0001F438: Bye bye ' + user+ ', go catch some flies!')
+def goodbye(name):
+    print('\U0001F438: Bye bye ' + name+ ', go catch some flies!')
     
 
 
