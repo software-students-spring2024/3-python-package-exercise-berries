@@ -23,11 +23,18 @@ def hello(name):
 
 
 def encourage():
-    print('\U0001F438: You got this!')
+    frogs_decision = random.randint(1, 3)
+    
+    if frogs_decision == 1:
+        print('\U0001F438: You are the smartest frog in the pond!')
+    if frogs_decision == 2:
+        print('\U0001F438: You got this! Leap by leap!')
+    else:
+        print('\U0001F438: You are amazing!')
     
 
 def frogmode():
-    print('\U0001F438: I EAT BUGS, lets eat bugs together')
+    print("\U0001F438: I EAT BUGS, let's eat bugs together")
 
 
 def feed(snack):
@@ -48,17 +55,5 @@ def kill(anything):
     
     
 def goodbye(name):
-    print('\U0001F438: Bye bye ' + name+ ', go catch some flies!')
+    print('\U0001F438: Bye bye ' + name+ ', go catch some flies for me!')
     
-
-
-
-def main():
-    print("Welcome to the frog module!")
-    
-    
-    
-    
-    
-if __name__ == "__main__":
-    main()
