@@ -1,5 +1,5 @@
 import argparse
-import frog
+from frog import frog
 
 
 def main():
