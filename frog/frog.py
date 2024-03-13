@@ -1,6 +1,8 @@
 import random
 
 # function that lists all the available functions in the module
+### help() not used in main, can be deleted/commented out if desired ###
+'''
 def help():
     
     print("hello(your name): the frog says hello to you ;)  (replace 'your name' with your name!)")
@@ -9,7 +11,7 @@ def help():
     print("feed(snack): feed the frog a yummy snack!    (replace 'snack' with your choice of snack!)")
     print("kill(anything): the fighter frog kills anything for you!  (replace 'anything' with anything you want to kill!)")
     print("goodbye(your name): frog says goodbye to you!  (replace 'your name' with your name!)")
-    
+'''
 
     
     
