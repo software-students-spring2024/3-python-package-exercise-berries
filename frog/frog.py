@@ -27,7 +27,7 @@ def encourage():
     
     if frogs_decision == 1:
         print('\U0001F438: You are the smartest frog in the pond!')
-    if frogs_decision == 2:
+    elif frogs_decision == 2:
         print('\U0001F438: You got this! Leap by leap!')
     else:
         print('\U0001F438: You are amazing!')
