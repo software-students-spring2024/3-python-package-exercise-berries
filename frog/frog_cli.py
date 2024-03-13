@@ -3,19 +3,18 @@ import frog
 
 
 def main():
-    parser = argparse.ArgumentParser('description="Welcome to the frog module!"')
+    parser = argparse.ArgumentParser(description="Welcome to the frog module!")
     
     # the function wanted to be called
     subparsers = parser.add_subparsers(help="command", dest="command")
-    #parser.add_argument("command", help="command to perform")
+
     
     hello_parser = subparsers.add_parser("hello", help="the frog says hello to you")
     hello_parser.add_argument("name", help="your name")
-    #parser.add_argument("name", help="your name")
     
-    encourage_parser = subparsers.add_parser("encourage", help="the frog gives you a silly little pep talk <3")
+    subparsers.add_parser("encourage", help="the frog gives you a silly little pep talk <3")
     
-    frogmode_parser = subparsers.add_parser("frogmode", help="the frogs gets into frog mode and eats bugs with you!")
+    subparsers.add_parser("frogmode", help="the frogs gets into frog mode and eats bugs with you!")
     
     feed_parser = subparsers.add_parser("feed", help="feed the frog a yummy snack!")
     feed_parser.add_argument("snack", help="the snack you would like to feed the frog")
@@ -62,6 +61,6 @@ def main():
 
 
 
-
+# running the main functino for developement testing
 if __name__ == "__main__":
     main()
