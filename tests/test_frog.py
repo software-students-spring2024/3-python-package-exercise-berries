@@ -2,17 +2,12 @@ import pytest
 from frog.frog import hello, encourage, frogmode, feed, kill, goodbye, help
 
 # hello
-
 def test_hello(capsys):
     hello("Alice")
     captured = capsys.readouterr()
     assert "\U0001F438: Hi there Alice!" in captured.out
 
-
-
-
-# encourage
-    
+# encourage  
 def test_encourage(capsys):
     encourage()
     captured = capsys.readouterr()
@@ -32,30 +27,23 @@ def test_encourage_variants(capsys, monkeypatch, seed):
     else:  # seed == 3
         assert "\U0001F438: You are amazing!" in captured.out
 
-# frogmode
-        
+# frogmode     
 def test_frogmode(capsys):
     frogmode()
     captured = capsys.readouterr()
     assert "\U0001F438: I EAT BUGS, let's eat bugs together" in captured.out
 
-# feed
-    
+# feed  
 def test_feed(capsys):
     feed("flies")
     captured = capsys.readouterr()
     assert "\U0001F438: Thanks for the sweet little treat! Flies is yummy! nom nom nom" in captured.out
 
-# kill
-    
+# kill  
 def test_kill(capsys):
     kill("the bad vibes")
     captured = capsys.readouterr()
     assert "\U0001F438:" in captured.out
-
-
-
-
 
 @pytest.mark.parametrize("seed,expected", [
     (1, "I killed the bad vibes for you! You are safe now!"),
@@ -70,25 +58,12 @@ def test_kill_variants(capsys, monkeypatch, seed, expected):
     assert "\U0001F438: " + expected in captured.out
 
 # goodbye
-    
-
 def test_goodbye(capsys):
     goodbye("Alice")
     captured = capsys.readouterr()
     assert "\U0001F438: Bye bye Alice, go catch some flies for me!" in captured.out
 
-
-
-
-
-
 # help
-    
-
-
-
-
-
 def test_help(capsys):
     help()
     captured = capsys.readouterr()
