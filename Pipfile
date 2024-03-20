@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+argparse = "*"
+pytest = "*"
+build = "*"
+tomli = "*"
+
+[dev-packages]
+build = "*"
+setuptools = "*"
+
+[requires]
+python_version = "3"
