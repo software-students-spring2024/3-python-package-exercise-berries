@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "frog"
+description = "Frog is a package that introduces users to Ribbet the frog, a virtual pet that cheers up the user based on the commands of the user. "
+version = "0.1.0"
+dependencies = [
+    "argparse >=1.4.0, <2.0.0",
+    "pytest ~=8.1.1",
+    "build >=1.1.1,<2.0.0"
+]
+authors = [
+  {name = "Christina Borao"},
+  {name = "Bonny Chavarría"},
+  {name = "Damla Önder"},
+  {name = "Yura Wu"},
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+keywords = ["python", "package", "build", "frog", "encourage", "animals", "cute", "funny", "bugs"]
+requires-python = ">=3.7"
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python :: 3"
+]
+
+[project.urls]
+Homepage = "https://github.com/software-students-spring2024/3-python-package-exercise-berries"
+Repository = "https://github.com/software-students-spring2024/3-python-package-exercise-berries.git"
+"Bug Tracker" = "https://github.com/software-students-spring2024/3-python-package-exercise-berries/issues"
+
+[project.entry-points.console_scripts]
+frog = "frog.frog_cli:main"
