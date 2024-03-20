@@ -20,7 +20,7 @@ authors = [
 license = { file = "LICENSE" }
 readme = "README.md"
 keywords = ["python", "package", "build", "frog", "encourage", "animals", "cute", "funny", "bugs"]
-requires-python = ">=3.7"
+requires-python = ">=3.11"
 classifiers = [
   "Development Status :: 4 - Beta",
   "Programming Language :: Python :: 3"
