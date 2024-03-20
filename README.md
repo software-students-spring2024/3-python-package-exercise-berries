@@ -59,15 +59,6 @@ Functions:
 ```
 
 
-```bash
-  frog kill cockroach
-```
-or 
-```bash
-  frog frogmode
-```
-note: put documentation and finish run instructions
-
 
 ## Contributors
 * [Bonny](https://github.com/BonnyCChavarria) 
