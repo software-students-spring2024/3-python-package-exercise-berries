@@ -28,6 +28,37 @@ Install the frog module using pip
 ## Usage
 Call frog from the command line to interact with your virtual frog while coding.
 
+To access menu with all functions: 
+```bash
+  frog
+```
+Functions: 
+* hello
+```bash
+  frog hello {name}
+```
+* encourage
+```bash
+  frog encourage
+```
+* frogmode
+```bash
+  frog frogmode
+```
+* feed
+```bash
+  frog feed {snack}
+```
+* kill
+```bash
+  frog kill {anything}
+```
+* goodbye 
+```bash
+  frog goodbye {name}
+```
+
+
 ```bash
   frog kill cockroach
 ```
