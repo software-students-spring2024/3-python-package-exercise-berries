@@ -1,4 +1,4 @@
-![Python build & test](https://github.com/software-students-spring2024/3-python-package-exercise-berries/actions/workflows/event-logger.yml/badge.svg)
+![Workflow Status](https://github.com/software-students-spring2024/3-python-package-exercise-berries/actions/workflows/event-logger.yml/badge.svg)
 # Python Package Exercise
 
 We are building a frog 🐸, named ribbet, virtual pet that has four behaviors that can be called upon each with their own unique message/response. 
