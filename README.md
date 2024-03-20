@@ -58,17 +58,6 @@ Functions:
   frog goodbye {name}
 ```
 
-
-```bash
-  frog kill cockroach
-```
-or 
-```bash
-  frog frogmode
-```
-note: put documentation and finish run instructions
-
-
 ## Contributors
 * [Bonny](https://github.com/BonnyCChavarria) 
 * [Christina](https://github.com/crb623)
