@@ -14,8 +14,3 @@ def test_frog_cli_commands(test_args, expected_call):
             mock_func.assert_called_once_with(*expected_call[1:])
         else:
             mock_func.assert_called_once()
-
-
-
-
-            
