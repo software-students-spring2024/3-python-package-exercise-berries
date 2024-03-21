@@ -1,8 +1,5 @@
+![Workflow Status](https://github.com/software-students-spring2024/3-python-package-exercise-berries/actions/workflows/run-tests.yml/badge.svg)
 # Python Package Exercise
-
-An exercise to create a Python package, build it, test it, distribute it, and use it. See [instructions](./instructions.md) for details.
-
-# Package Idea
 
 We are building a frog 🐸, named ribbet, virtual pet that has four behaviors that can be called upon each with their own unique message/response. 
 
@@ -32,15 +29,35 @@ Install the frog module using pip
 ## Usage
 Call frog from the command line to interact with your virtual frog while coding.
 
+To access menu with all functions: 
 ```bash
-  frog kill cockroach
+  frog
 ```
-or 
+Functions: 
+* hello
+```bash
+  frog hello {name}
+```
+* encourage
+```bash
+  frog encourage
+```
+* frogmode
 ```bash
   frog frogmode
 ```
-note: put documentation and finish run instructions
-
+* feed
+```bash
+  frog feed {snack}
+```
+* kill
+```bash
+  frog kill {anything}
+```
+* goodbye 
+```bash
+  frog goodbye {name}
+```
 
 ## Contributors
 * [Bonny](https://github.com/BonnyCChavarria) 

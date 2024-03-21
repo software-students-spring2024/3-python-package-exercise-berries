@@ -1,7 +1,8 @@
 import random
 
 # function that lists all the available functions in the module
-### help() not used in main, can be deleted/commented out if desired ###
+### the parser help is used instead ###
+### help() not used in main, can be deleted/commented out ###
 '''
 def help():
     
