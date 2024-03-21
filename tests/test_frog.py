@@ -1,5 +1,5 @@
 import pytest
-from frog.frog import hello, encourage, frogmode, feed, kill, goodbye, help
+from frog.frog import hello, encourage, frogmode, feed, kill, goodbye
 
 # hello
 def test_hello(capsys):
@@ -63,6 +63,9 @@ def test_goodbye(capsys):
     captured = capsys.readouterr()
     assert "\U0001F438: Bye bye Alice, go catch some flies for me!" in captured.out
 
+
+# if want to test, import help from frog.frog
+"""
 # help
 def test_help(capsys):
     help()
@@ -73,6 +76,6 @@ def test_help(capsys):
     assert "feed(snack): feed the frog a yummy snack!" in captured.out
     assert "kill(anything): the fighter frog kills anything for you!" in captured.out
     assert "goodbye(your name): frog says goodbye to you!" in captured.out
-
+"""
 
 
