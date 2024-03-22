@@ -1,11 +1,11 @@
 ![Workflow Status](https://github.com/software-students-spring2024/3-python-package-exercise-berries/actions/workflows/run-tests.yml/badge.svg)
 # Python Package Exercise
 
-We are building a frog 🐸, named ribbet, virtual pet that has four behaviors that can be called upon each with their own unique message/response. 
+We are building a frog 🐸 named Ribbet, a virtual pet that has multiple behaviors that can be called upon each with their own unique message/response. 
 
 
 The unique responses will be: 
-* **help**: List of commands 
+* **-h/--help**: List of commands 
 * **hello(name)**: "🐸: Hi there (name)"
 * **encourage**: "🐸: You are the smartest frog in the pond!",</br> 
 "You got this! Leap by leap!" or </br>
