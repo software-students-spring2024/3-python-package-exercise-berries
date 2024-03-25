@@ -39,26 +39,49 @@ Functions:
 ```bash
   frog hello {name}
 ```
+
+frog hello Name<br>
+🐸: Hi there Name!
+
 * encourage
 ```bash
   frog encourage
 ```
+
+frog encourage<br>
+🐸: You are amazing!
+
 * frogmode
 ```bash
   frog frogmode
 ```
+
+frog frogmode<br>
+🐸: I EAT BUGS, let's eat bugs together
+
 * feed
 ```bash
   frog feed {snack}
 ```
+
+frog feed worm<br>
+🐸: Thanks for the sweet little treat! Worm is yummy! nom nom nom
+
 * kill
 ```bash
   frog kill {anything}
 ```
+
+frog kill bugs<br>
+🐸: I don't like bugs, I only eat yummy snacks! nom nom nom
+
 * goodbye 
 ```bash
   frog goodbye {name}
 ```
+
+frog goodbye Name
+🐸: Bye bye Name, go catch some flies for me!
 
 ## Contributors
 * [Bonny](https://github.com/BonnyCChavarria) 
