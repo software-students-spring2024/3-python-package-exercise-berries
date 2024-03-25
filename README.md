@@ -3,7 +3,7 @@
 
 We are building a frog 🐸 named Ribbet, a virtual pet that has multiple behaviors that can be called upon each with their own unique message/response. 
 
-NOTE: This is a python package that can be utilized in your terminal. This is not a python package that can be imported into a python file. 
+NOTE: This is a python packaged that can be installed and utilized in your terminal. This is not a python package that can be imported into a python file.   
 
 The unique responses will be: 
 * **-h/--help**: List of commands 
