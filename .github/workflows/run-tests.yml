@@ -1,4 +1,4 @@
-name: Run Package Tests
+name: CI / CD
 
 on:
     push:
