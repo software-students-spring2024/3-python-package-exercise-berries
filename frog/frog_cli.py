@@ -1,6 +1,6 @@
+
 import argparse
 from frog import frog
-
 
 def main():
     parser = argparse.ArgumentParser(description="Welcome to the frog module!")
@@ -58,8 +58,6 @@ def main():
     print(args.target)
 """
     
-
-
 
 # running the main functino for developement testing
 if __name__ == "__main__":
