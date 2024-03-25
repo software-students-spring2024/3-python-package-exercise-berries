@@ -1,6 +1,6 @@
+
 import pytest
 from frog.frog import hello, encourage, frogmode, feed, kill, goodbye
-
 # hello
 def test_hello(capsys):
     hello("Alice")
