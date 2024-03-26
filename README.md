@@ -60,6 +60,39 @@ Functions:
   frog goodbye {name}
 ```
 
+## Command Examples
+
+* hello
+```bash
+Your-MacBook-Pro:Documents username$ frog hello Name<br>
+🐸: Hi there Name!
+```
+* encourage
+```bash
+Your-MacBook-Pro:Documents username$ frog encourage<br>
+🐸: You are amazing!
+```
+* frogmode
+```bash
+Your-MacBook-Pro:Documents username$ frog frogmode<br>
+🐸: I EAT BUGS, let's eat bugs together
+```
+* feed
+```bash
+Your-MacBook-Pro:Documents username$ frog feed worm<br>
+🐸: Thanks for the sweet little treat! Worm is yummy! nom nom nom
+```
+* kill
+```bash
+Your-MacBook-Pro:Documents username$ frog kill bugs<br>
+🐸: I don't like bugs, I only eat yummy snacks! nom nom nom
+```
+* goodbye 
+```bash
+Your-MacBook-Pro:Documents username$ frog goodbye Name
+🐸: Bye bye Name, go catch some flies for me!
+```
+
 ## Contributors
 * [Bonny](https://github.com/BonnyCChavarria) 
 * [Christina](https://github.com/crb623)
