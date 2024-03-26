@@ -1,9 +1,21 @@
 
 import argparse
+import sys
 from frog import frog
 
-def main():
-    parser = argparse.ArgumentParser(description="Welcome to the frog module!")
+class Custom_ArgParser(argparse.ArgumentParser):
+    def error(self, message):
+        # stderr -> standard error in linux
+        sys.stderr.write(f'ERROR: {message}\n')
+        sys.stderr.write("Please enter the correct amount of arguments.\n")
+        print()
+        # prints help table to show commands & args 
+        # this line is key in overriding generic error handler 
+        self.print_help()
+        sys.exit(2)
+        
+def args_parser():
+    parser = Custom_ArgParser(description="Welcome to the frog module!")
     
     # the function wanted to be called
     subparsers = parser.add_subparsers(help="command", dest="command")
@@ -25,40 +37,37 @@ def main():
     goodbye_parser = subparsers.add_parser("goodbye", help="frog says goodbye to you!")
     goodbye_parser.add_argument("name", help="your name")
     
-    try: 
-        args = parser.parse_args()
-    except argparse.ArgumentError as e:
-        print(e)
-    
-    if args.command == "hello":
-        frog.hello(args.name)
-    elif args.command == "encourage":
-        frog.encourage()
-    elif args.command == "frogmode":
-        frog.frogmode()
-    elif args.command == "feed":
-        frog.feed(args.snack)
-    elif args.command == "kill":
-        frog.kill(args.anything)
-    elif args.command == "goodbye":
-        frog.goodbye(args.name)
-    else:
-        parser.print_help()     # print all the available commands
-    
-    
-"""
-    parser.add_argument("name", help="your name")
-    parser.add_argument("action", help="action to perform")
-    parser.add_argument("target", help="target of the action")
-    
-    args = parser.parse_args()
-    
-    print(args.name)
-    print(args.action)
-    print(args.target)
-"""
-    
+    return parser
 
-# running the main functino for developement testing
+""" 
+# this function doesnt work - needs to override this with custom class 
+def handle_argument_error(e):
+    print(f"Error: {str(e)}")
+    print("Please enter the correct amount of arguments")
+"""
+
+def main():
+    parser = args_parser()
+    
+    try:
+        args = parser.parse_args()
+        # call respective function
+        if args.command == "hello":
+            frog.hello(args.name)
+        elif args.command == "encourage":
+            frog.encourage()
+        elif args.command == "frogmode":
+            frog.frogmode()
+        elif args.command == "feed":
+            frog.feed(args.snack)
+        elif args.command == "kill":
+            frog.kill(args.anything)
+        elif args.command == "goodbye":
+            frog.goodbye(args.name)
+    except Exception as e:  # Catching generic exception for demonstration; customize as needed
+        #handle_argument_error()
+        print(e)  # Optionally print the error message
+
 if __name__ == "__main__":
     main()
+
