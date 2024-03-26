@@ -64,27 +64,27 @@ Functions:
 
 * hello
 ```bash
-Your-MacBook-Pro:Documents username$ frog hello Name<br>
+Your-MacBook-Pro:Documents username$ frog hello Name
 🐸: Hi there Name!
 ```
 * encourage
 ```bash
-Your-MacBook-Pro:Documents username$ frog encourage<br>
+Your-MacBook-Pro:Documents username$ frog encourage
 🐸: You are amazing!
 ```
 * frogmode
 ```bash
-Your-MacBook-Pro:Documents username$ frog frogmode<br>
+Your-MacBook-Pro:Documents username$ frog frogmode
 🐸: I EAT BUGS, let's eat bugs together
 ```
 * feed
 ```bash
-Your-MacBook-Pro:Documents username$ frog feed worm<br>
+Your-MacBook-Pro:Documents username$ frog feed worm
 🐸: Thanks for the sweet little treat! Worm is yummy! nom nom nom
 ```
 * kill
 ```bash
-Your-MacBook-Pro:Documents username$ frog kill bugs<br>
+Your-MacBook-Pro:Documents username$ frog kill bugs
 🐸: I don't like bugs, I only eat yummy snacks! nom nom nom
 ```
 * goodbye 
