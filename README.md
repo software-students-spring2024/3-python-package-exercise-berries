@@ -20,76 +20,76 @@ The unique responses will be:
 
 ## Install 
 
-Install the frog module using pip
+Install the ribbet module using pip
 
 ```bash
-  pip install frog 
+  pip install ribbet 
 ```
 
 
 ## Usage
-Call frog from the command line to interact with your virtual frog while coding.
+Call ribbet from the command line to interact with your virtual frog while coding.
 
 To access menu with all functions: 
 ```bash
-  frog
+  ribbet
 ```
 Functions: 
 * hello
 ```bash
-  frog hello {name}
+  ribbet hello {name}
 ```
 * encourage
 ```bash
-  frog encourage
+  ribbet encourage
 ```
 * frogmode
 ```bash
-  frog frogmode
+  ribbet frogmode
 ```
 * feed
 ```bash
-  frog feed {snack}
+  ribbet feed {snack}
 ```
 * kill
 ```bash
-  frog kill {anything}
+  ribbet kill {anything}
 ```
 * goodbye 
 ```bash
-  frog goodbye {name}
+  ribbet goodbye {name}
 ```
 
 ## Command Examples
 
 * hello
 ```bash
-Your-MacBook-Pro:Documents username$ frog hello Name
+Your-MacBook-Pro:Documents username$ ribbet hello Name
 🐸: Hi there Name!
 ```
 * encourage
 ```bash
-Your-MacBook-Pro:Documents username$ frog encourage
+Your-MacBook-Pro:Documents username$ ribbet encourage
 🐸: You are amazing!
 ```
 * frogmode
 ```bash
-Your-MacBook-Pro:Documents username$ frog frogmode
+Your-MacBook-Pro:Documents username$ ribbet frogmode
 🐸: I EAT BUGS, let's eat bugs together
 ```
 * feed
 ```bash
-Your-MacBook-Pro:Documents username$ frog feed worm
+Your-MacBook-Pro:Documents username$ ribbet feed worm
 🐸: Thanks for the sweet little treat! Worm is yummy! nom nom nom
 ```
 * kill
 ```bash
-Your-MacBook-Pro:Documents username$ frog kill bugs
+Your-MacBook-Pro:Documents username$ ribbet kill bugs
 🐸: I don't like bugs, I only eat yummy snacks! nom nom nom
 ```
 * goodbye 
 ```bash
-Your-MacBook-Pro:Documents username$ frog goodbye Name
+Your-MacBook-Pro:Documents username$ ribbet goodbye Name
 🐸: Bye bye Name, go catch some flies for me!
 ```
 
