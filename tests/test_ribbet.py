@@ -1,6 +1,6 @@
 
 import pytest
-from frog.frog import hello, encourage, frogmode, feed, kill, goodbye
+from ribbet.ribbet import hello, encourage, frogmode, feed, kill, goodbye
 # hello
 def test_hello(capsys):
     hello("Alice")
@@ -64,7 +64,6 @@ def test_goodbye(capsys):
     assert "\U0001F438: Bye bye Alice, go catch some flies for me!" in captured.out
 
 
-# if want to test, import help from frog.frog
 """
 # help
 def test_help(capsys):

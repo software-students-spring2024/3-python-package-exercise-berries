@@ -1,7 +1,7 @@
 
 import argparse
 import sys
-from frog import frog
+from ribbet import ribbet
 
 class Custom_ArgParser(argparse.ArgumentParser):
     def error(self, message):
@@ -53,17 +53,17 @@ def main():
         args = parser.parse_args()
         # call respective function
         if args.command == "hello":
-            frog.hello(args.name)
+            ribbet.hello(args.name)
         elif args.command == "encourage":
-            frog.encourage()
+            ribbet.encourage()
         elif args.command == "frogmode":
-            frog.frogmode()
+            ribbet.frogmode()
         elif args.command == "feed":
-            frog.feed(args.snack)
+            ribbet.feed(args.snack)
         elif args.command == "kill":
-            frog.kill(args.anything)
+            ribbet.kill(args.anything)
         elif args.command == "goodbye":
-            frog.goodbye(args.name)
+            ribbet.goodbye(args.name)
     except Exception as e:  # Catching generic exception for demonstration; customize as needed
         #handle_argument_error()
         print(e)  # Optionally print the error message
