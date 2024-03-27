@@ -93,6 +93,35 @@ Your-MacBook-Pro:Documents username$ ribbet goodbye Name
 🐸: Bye bye Name, go catch some flies for me!
 ```
 
+## How to Contribute to ribbet
+1. **Clone the repository:**
+```bash
+git clone https://github.com/software-students-spring2024/3-python-package-exercise-berries.git
+```
+
+2. **Create a virtual environment:**
+```bash
+python -m venv env
+source env/bin/activate
+```
+
+3. **Install dependencies:**
+```bash
+pip install -r requires.txt
+```
+### Make Changes & Testing
+* Add your changes in a new branch
+* Make sure all changes are passing by running:
+```bash
+pytest
+```
+
+### Submit Your Contribution
+* Contribute your changes via pull requests
+
+## PyPI Website
+[ribbet 0.1.2](https://pypi.org/project/ribbet/0.1.2/)
+
 ## Contributors
 * [Bonny](https://github.com/BonnyCChavarria) 
 * [Christina](https://github.com/crb623)
