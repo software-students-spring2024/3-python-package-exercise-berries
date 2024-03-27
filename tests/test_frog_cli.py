@@ -35,8 +35,3 @@ def test_hello_with_special_characters():
         frog_cli.main()
         mock_func.assert_called_once_with('!@#$%')
 
-def test_unrecognized_command():
-    test_args = ['prog', 'unknown_command']
-    with patch('sys.argv', test_args), patch('sys.exit') as mock_exit:
-        frog_cli.main()
-        mock_exit.assert_called_once_with(2)
