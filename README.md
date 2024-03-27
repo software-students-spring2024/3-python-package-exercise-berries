@@ -15,7 +15,7 @@ The unique responses will be:
 * **feed(snack)**: "🐸: Thanks for the sweet little treat! (snack) is yummy! Nom nom nom"
 * **kill(anything)**: "🐸: I killed (anything) for you! You are safe now!" or </br>
 "I don't like (anything), I only eat yummy snacks! nom nom nom" selected based on the frog's mood! (randomly)
-* **bye(name)**: "🐸: Bye bye (name), go catch some flies for me!"
+* **goodbye(name)**: "🐸: Bye bye (name), go catch some flies for me!"
 
 
 ## Install 
@@ -120,7 +120,7 @@ pytest
 * Contribute your changes via pull requests
 
 ## PyPI Website
-[ribbet 0.1.2](https://pypi.org/project/ribbet/0.1.2/)
+[ribbet 0.1.2](https://pypi.org/project/ribbet/0.1.4/)
 
 ## Contributors
 * [Bonny](https://github.com/BonnyCChavarria) 
