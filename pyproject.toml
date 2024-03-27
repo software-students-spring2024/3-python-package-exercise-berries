@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "ribbet"
 description = "Ribbet is a package that introduces users to Ribbet the frog, a virtual pet that cheers up the user based on different commands. Let's eat bugs together!"
-version = "0.1.2"
+version = "0.1.4"
 dependencies = [
     "argparse >=1.4.0, <2.0.0",
     "pytest ~=8.1.1",
